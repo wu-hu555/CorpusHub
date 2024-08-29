@@ -12,6 +12,9 @@ import App from "./App.vue";
 import { createPinia } from "pinia";
 import router from "./router";
 import ElementPlus from "element-plus";
+import "./style/tailwind.css";
+import "./style/globle-style.css"
+
 //import "element-plus/lib/theme-chalk/index.css";
 
 const pinia = createPinia();
